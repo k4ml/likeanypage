@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
+    <script src="javascripts/like.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -21,17 +22,18 @@
       <div id="header">
         <div id="title">
           <h1>Likeanypage</h1>
-          <p></p>
-          <hr>
         </div>
       </div><!-- end header -->
 
     <div class="wrapper">
 
       <section>
-
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <div id="title-2">
+        <h3>Enter URL to like</h3>
+        <input type="text" size="70" name="url" id="url" />
+        <button id="generate">Generate</button>
+        <div id="ifr"></div>
+        </div>
 
       </section>
 

@@ -780,33 +780,41 @@ dt {
   font-size: 11px;
 }
 
-section {
-  max-width: 650px;
-  padding: 30px 0px 50px 0px;
-  margin: 20px 0;
-  margin-top: 70px;
-}
-section #title {
-  border: 0;
-  outline: none;
-  margin: 0 0 50px 0;
-  padding: 0 0 5px 0;
-}
-section #title h1 {
+#header #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
   line-height: 36px;
 }
-section #title p {
+
+section {
+  max-width: 650px;
+  padding: 30px 0px 50px 0px;
+  margin: 20px 0;
+  margin-top: 70px;
+}
+section #title-2 {
+  border: 0;
+  outline: none;
+  margin: 0 0 50px 0;
+  padding: 0 0 5px 0;
+}
+section #title-2 h3 {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 36px;
+}
+section #title-2 p {
   color: #d7cfbe;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
 }
-section #title .credits {
+section #title-2 .credits {
   font-size: 11px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -848,4 +856,9 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+
+#ifr {
+  background: white;
+  color: black;
 }
