@@ -797,8 +797,7 @@ section {
 section #title-2 {
   border: 0;
   outline: none;
-  margin: 0 0 50px 0;
-  padding: 0 0 5px 0;
+  text-align: center;
 }
 section #title-2 h3 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -861,4 +860,11 @@ section #title .credits.right {
 #ifr {
   background: white;
   color: black;
+  text-align: center;
+}
+
+#display_url {
+  background: white;
+  color: black;
+  text-align: center;
 }
