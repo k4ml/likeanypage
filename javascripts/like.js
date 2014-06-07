@@ -8,4 +8,10 @@ $(document).ready(function(){
         $('#ifr').empty().append(ifr);
         $('#display_url').append(display_url);
     });
+
+    $('#reset').click(function(){
+        $('#url')[0].value = '';
+        $('#ifr').empty();
+        $('#display_url').empty();
+    });
 });
